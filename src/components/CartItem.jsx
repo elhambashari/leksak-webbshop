@@ -17,7 +17,7 @@ function CartItem({ item, onQuantityChange, onRemove }) {
     <div className="cart-item">
       <img src={item.imageUrl} alt={item.name} className="cart-item-image" />
       <div className="cart-item-details">
-        <h2>{item.name}</h2>
+        <h2>{item.title}</h2>
         <p>{item.price} kr/st</p>
         <div className="cart-item-quantity">
           <label>Antal:</label>
